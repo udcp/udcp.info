@@ -1,0 +1,132 @@
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'KoushikiSansRegular', sans-serif;
+	font-weight: normal;
+}
+thead th, tbody th {
+	font-family: 'KoushikiSansRegular', sans-serif;
+	font-weight: normal;
+}
+button, a.btn, input[type="submit"], input[type="reset"], input[type="button"] {
+	font-family: 'KoushikiSansRegular', sans-serif;
+	font-weight: normal;
+}
+.menu {
+	font-family: 'KoushikiSansRegular', sans-serif;
+	font-weight: normal;
+}
+blockquote {
+	font-family: 'KoushikiSansRegular', sans-serif;
+	font-weight: normal;
+}
+p{
+	text-align:justify;
+	text-justify: inter-ideograph;
+}
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin:0;
+	padding:0;
+	color:#000;
+	background:#efefef url(img/background.jpg) repeat;
+	font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
+	text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+#wrapper {
+	width:960px;
+	height: 100%;
+	min-height: 100%;
+	margin:0;
+	padding:0;
+	border-right:1px solid #ccc;
+	background: url(img/wrap_background.png);
+}
+body > #wrapper {
+	height: auto;
+}
+
+aside#sidebar ul{
+padding:0;
+margin:0 0 20px 0;
+}
+
+	aside#sidebar ul li{
+	font-family: 'KoushikiSansRegular', sans-serif;
+	font-weight: normal;
+	list-style-type:none;
+	border-top:1px dotted #ccc;
+	border-bottom:1px dotted #ccc;
+	margin:0 0 -1px 0;
+	padding-left:2px;
+	}
+
+#contents{
+	padding-bottom: 150px;
+}
+
+.next{
+	text-align: right;
+	color: #555;
+}
+
+.next a:hover{
+	text-decoration: underline;
+}
+
+/*
+ Web Font
+*/
+
+@font-face {
+	font-family: 'KoushikiSansRegular';
+	src: url('./img/fonts/KoushikiSans-Regular.otf');/*
+	src: local("Koushiki Sans Regular"),
+	     url(img/fonts/KoushikiSans-Regular.otf);  
+			 */
+}
+@font-face {
+	font-family: 'KoushikiSansLight';
+	src: url('./img/fonts/KoushikiSans-Regular.otf');/*
+	src: local("Koushiki Sans Light"), 
+	     url(img/fonts/KoushikiSans-Light.otf);
+			 */  
+}
+ul.alt2 li {
+	font-family: 'KoushikiSansLight', sans-serif;
+	font-weight: lighter;
+}
+
+header{
+	width: 800px;
+	height: 122px;
+	margin-top: 20px;
+	float: left;
+}
+
+footer {
+	position: relative;
+	height: 130px;
+	margin-top: -130px;
+	background-color: #333;
+	color: white;
+	width: 960px;
+	clear: both;
+}
+footer a {
+	color: white;
+}
+footer p {
+	padding-top: 30px;
+}
