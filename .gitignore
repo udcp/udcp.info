@@ -18,3 +18,5 @@ config.yml
 /.yardoc
 .sass-cache
 database.yml
+/config/deploy.rb
+
