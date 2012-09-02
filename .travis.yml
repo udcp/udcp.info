@@ -11,7 +11,7 @@ env:
   - DATABASE_URL="postgres://postgres@127.0.0.1/lokka_test"
   - DUMMY=DUMMY # sqlite
 notifications:
-  irc: "irc.freenode.org#udcp"
+  irc: "assam.udcp.info:36666#udcp-dev"
 branches:
   only:
     - master
